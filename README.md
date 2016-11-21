@@ -7,7 +7,7 @@ This was a graphics project which aimed to create a robot arm which can move in 
 3. Finally run the code: `./sfml-app`
 
 # Keyboard Shortcuts
-`a` and `s` to rotate the entire arm
-`z` and `x` to rotate the fore-arm
-`w` to open the claws
-`q` to close the claws
+* `a` and `s` to rotate the entire arm
+* `z` and `x` to rotate the fore-arm
+* `w` to open the claws
+* `q` to close the claws
