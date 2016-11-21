@@ -151,14 +151,14 @@ int main()
                     fore_arm.updatePosition(fore_arm.rotation -= fore_arm.velocity);
 
 //            Claws Rotation
-            if (sf::Keyboard::isKeyPressed(sf::Keyboard::W)) {
+            if (sf::Keyboard::isKeyPressed(sf::Keyboard::Q)) {
                 if(left_claw_limb.rotation < 315)
                     left_claw_limb.updatePosition(left_claw_limb.rotation += left_claw_limb.velocity);
                 if(right_claw_limb.rotation > 45)
                     right_claw_limb.updatePosition(right_claw_limb.rotation -= right_claw_limb.velocity);
             }
 
-            if (sf::Keyboard::isKeyPressed(sf::Keyboard::Q)) {
+            if (sf::Keyboard::isKeyPressed(sf::Keyboard::W)) {
                 if(left_claw_limb.rotation > 270)
                     left_claw_limb.updatePosition(left_claw_limb.rotation -= left_claw_limb.velocity);
                 if(right_claw_limb.rotation < 90)
